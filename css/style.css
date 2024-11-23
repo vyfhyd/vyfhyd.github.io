@@ -1,7 +1,15 @@
 body, html {
     max-width: 1024px;
     margin: 0 auto;
-    font-family: Arial, sans-serif;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
+    border: 5px solid #dcdcdc; /* Light gray border */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+p{ line-height: 1.5em;}
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 header {
     background: #fff;     
@@ -46,9 +54,12 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 10px 20px;
-    /* position: absolute; */
+    padding: 10px 0;
     width: 100%;
     max-width: 1024px;
     bottom: 0;
+}
+footer a {
+    color: white;
+    
 }
